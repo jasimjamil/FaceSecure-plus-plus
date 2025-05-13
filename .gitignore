@@ -1,0 +1,45 @@
+# Build directories
+build/
+build_debug/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Generated files
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*_automoc.cpp
+*_autogen/
+
+# User-specific files
+*.user
+*.user.*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Runtime data
+faces/
+data/trained_model.yml
+data/attendance.csv 
